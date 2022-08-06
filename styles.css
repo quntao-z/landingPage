@@ -38,6 +38,7 @@ a{
 
 .about{
     padding: 100px 110px;
+    gap: 100px;
 }
 
 .main-text{
@@ -64,7 +65,6 @@ a{
 }
 
 .NYC{
-    margin-left: 300px;
     height: 281px;
     width: 464px;
 }
