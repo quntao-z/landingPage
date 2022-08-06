@@ -2,7 +2,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -51,14 +50,21 @@ a{
     padding-bottom: 8px;
 }
 
-.NYC{
-    height: 25%;
-    width: 25%;
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.sign-up{
+.NYC{
+    height: 281px;
+    width: 464px;
+}
+
+
+.sign-up, .sign-up2{
     font-family: Roboto, sans-serif;
-    border: none;
     border-radius: 8px;
     background: #24a0ed ;
     padding: 8px 16px;
@@ -66,11 +72,8 @@ a{
     margin-bottom: 16px;
 }
 
-.left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sign-up{
+    border: none;
 }
 
 .title{
@@ -80,13 +83,85 @@ a{
     font-size: xx-large;
     padding: 16px;
     margin: 8px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .attractions{
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: space-around;
+    margin-left: 15px;
 }
 
-.sites{
-    display: flex;
+.site{
     flex: 1;
+}
+
+img{
+    height: 450px;
+    width: 460px;
+    border-radius: 25px;
+}
+
+.detail{
+    color: #1F2937;
+    font-size: large;
+    font-weight: 700;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.action{
+    display: flex;
+    background-color: #24a0ed;
+    margin: 100px 100px;
+    padding: 100px;
+    gap: 100px;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.time, .tour{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.time{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.button-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up2{
+    border-color: white;
+    margin: 16px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 50px 50px;
+    color: white;
+    font-size: 30px;
 }
