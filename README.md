@@ -2,9 +2,9 @@
 Join me on a tour of New York City
 
 Unsplash Credit: 
-New York Skyline --- Florian Wehde
-Empire State Building --- Ben Dumond
-World Trade Center --- Julien DI MAJO
-American Museum of Natural History --- Aditya Vyas
+<br />New York Skyline --- Florian Wehde
+<br />Empire State Building --- Ben Dumond
+<br />World Trade Center --- Julien DI MAJO
+<br />American Museum of Natural History --- Aditya Vyas
 
-hello
+
